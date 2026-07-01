@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media_query.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="header-container">
+        <header>
+            <div class="logo">
+                <img src="./logo.svg" alt="log">
+                <h2>WebCoder</h2>
+            </div>
+            <div class="humburgor">
+                <label for="check">
+                    <img src="./hamburger.svg" alt="">
+                </label>
+            </div>
+            <input type="checkbox" name="" id="check">
+            <div class="nav">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li class="courses">
+                        <span class="">Courses</span>
+                        <img class="dropdown-svg" src="./dropdown.svg" alt="">
+                        <ul class="submenu">
+                            <li>
+                                <a href="">Full HTML Course for Beginners in Hindi</a>
+
+                            </li>
+                            <li>
+                                <a href="">Full HTML Course for Beginners in Hindi</a>
+
+                            </li>
+                            <li>
+                                <a href="">Full HTML Course for Beginners in Hindi</a>
+
+                            </li>
+                            <li>
+                                <a href="">The Complete JavaScript Course</a>
+
+                            </li>
+                            <li>
+                                <a href="">Git and Github Fundamentals</a>
+
+                            </li>
+                            <li>
+                                <a href="">React.js Full course</a>
+
+                            </li>
+
+                        </ul>
+
+
+                    </li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="profile-img">
+                <!-- <div class="profile-img"> -->
+                <img src="./avatar.svg" alt="avatar">
+                <div class="online-symbol">
+                </div>
+                <!-- </div> -->
+                <p>Anura singh</p>
+
+
+            </div>
+
+
+        </header>
+
+
+    </div>
+
+    <!-- progress sections -->
+    <div class="progress-section">
+        <div class="welcome-msg">
+            <h2>Welcome back, ready for your next lesson?</h2>
+            <button>View hisotry</button>
+        </div>
+        <div class="box-container">
+            <div class="box">
+                <img class="box-img" src="./images/Group 40.svg" alt="">
+                <h3 class="aws-certificate">AWS Certified solution architect</h3>
+                <div class="profile">
+                    <img src="./images/Group 234.svg" alt="">
+                    <span>lina</span>
+                </div>
+                <progress id="file" value="80" max="100"></progress>
+                <p class="Course-progress">lesson 5 of 7</p>
+            </div>
+            <!-- 2nd card -->
+            <div class="box">
+                <img class="box-img" src="./images/Group 40.svg" alt="">
+                <h3 class="aws-certificate">AWS Certified solution architect</h3>
+                <div class="profile">
+                    <img src="./images/Group 234.svg" alt="">
+                    <span>lina</span>
+                </div>
+                <progress id="file" value="80" max="100"></progress>
+                <p class="Course-progress">lesson 5 of 7</p>
+            </div>
+            <!-- 3rd card -->
+            <div class="box">
+                <img class="box-img" src="./images/Group 40.svg" alt="">
+                <h3 class="aws-certificate">AWS Certified solution architect</h3>
+                <div class="profile">
+                    <img src="./images/Group 234.svg" alt="">
+                    <span>lina</span>
+                </div>
+                <progress id="file" value="80" max="100"></progress>
+                <p class="Course-progress">lesson 5 of 7</p>
+            </div>
+        </div>
+        <div class="left-right-move-icon">
+            <div class="icon left-icon">
+                <img src="./images/left-move-icon.svg" alt="">
+            </div>
+            <div class="icon right-icon">
+                <img src="./images/right-move-icon.svg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- Course catogary -->
+    <div class="course-catogory-section">
+        <h2>Choice favourite course from top category</h2>
+        <div class="course-container">
+            <!-- desgin course -->
+            <div class="design-course">
+                <div class="img">
+                    <img src="./images/design-course.svg" alt="">
+                </div>
+                <h3>Design</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do
+                    eiusmod
+                </p>
+            </div>
+
+            <!-- Development -->
+            <div class="design-course Development">
+                <div class="img">
+                    <img src="./images/development-basic.svg" alt="">
+                </div>
+                <h3>Development</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do
+                    eiusmod
+                </p>
+            </div>
+
+            <!-- Development -->
+            <div class="design-course Development-basic">
+                <div class="img">
+                    <img src="./images/development.svg" alt="">
+                </div>
+                <h3>Development</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do
+                    eiusmod
+                </p>
+            </div>
+
+            <!-- Business -->
+            <div class="design-course Business">
+                <div class="img">
+                    <img src="./images/Business.svg" alt="">
+                </div>
+                <h3>Business</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do
+                    eiusmod
+                </p>
+
+            </div>
+
+            <!-- Marketing -->
+            <div class="design-course Marketing">
+                <div class="img">
+                    <img src="./images/marketing.svg" alt="">
+                </div>
+                <h3>Marketing</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do
+                    eiusmod
+                </p>
+            </div>
+
+            <!-- Photography -->
+            <div class="design-course Photography">
+                <div class="img">
+                    <img src="./images/photography.svg" alt="">
+                </div>
+                <h3>Photography</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do
+                    eiusmod
+                </p>
+            </div>
+            <!-- Acting -->
+            <div class="design-course Acting">
+                <div class="img">
+                    <img src="./images/acting.svg" alt="">
+                </div>
+                <h3>Acting</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do
+                    eiusmod
+                </p>
+            </div>
+            <!-- Business -->
+            <div class="design-course Business">
+                <div class="img">
+                    <img src="./images/Business.svg" alt="">
+                </div>
+                <h3>Business</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do
+                    eiusmod
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <!--Recommend section -->
+
+    <div class="progress-section Recommended-section">
+        <div class="welcome-msg">
+            <h2>Recommended for you</h2>
+            <button>See all</button>
+        </div>
+        <div class="box-container Recommended-container">
+            <div class="box" data-aos="flip-left">
+                <img class="box-img" src="./images/Rectangle 33.svg" alt="">
+                <div class="course-duration">
+                    <div class="course-name img">
+                        <img src="./images/recommed-design.svg" alt="">
+                        <span>Design</span>
+                    </div>
+                    <div class="duration img">
+                        <img src="./images/clock.svg" alt="">
+                        <span>3 Month</span>
+                    </div>
+                </div>
+                <h3 class="aws-certificate">AWS Certified solution architect</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor</p>
+                <div class="profile-price">
+                    <div class="profile">
+                        <img src="./images/Group 234.svg" alt="">
+                        <span>lina</span>
+                    </div>
+                    <div class="price">
+                        <span class="old-price">
+                            <del>$100</del>
+                        </span>
+                        <span class="new-price">$80</span>
+                    </div>
+
+                </div>
+            </div>
+            <!-- 2nd card -->
+            <div class="box" data-aos="flip-left">
+                <img class="box-img" src="./images/pc.svg" alt="">
+                <div class="course-duration">
+                    <div class="course-name img">
+                        <img src="./images/recommed-design.svg" alt="">
+                        <span>Design</span>
+                    </div>
+                    <div class="duration img">
+                        <img src="./images/clock.svg" alt="">
+                        <span>3 Month</span>
+                    </div>
+                </div>
+                <h3 class="aws-certificate">AWS Certified solution architect</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor</p>
+                <div class="profile-price">
+                    <div class="profile">
+                        <img src="./images/Group 234.svg" alt="">
+                        <span>lina</span>
+                    </div>
+                    <div class="price">
+                        <span class="old-price">
+                            <del>$100</del>
+                        </span>
+                        <span class="new-price">$80</span>
+                    </div>
+
+                </div>
+            </div>
+            <!-- 3rd card -->
+            <div class="box" data-aos="flip-right">
+                <img class="box-img" src="./images/Rectangle 33.svg" alt="">
+                <div class="course-duration">
+                    <div class="course-name img">
+                        <img src="./images/recommed-design.svg" alt="">
+                        <span>Design</span>
+                    </div>
+                    <div class="duration img">
+                        <img src="./images/clock.svg" alt="">
+                        <span>3 Month</span>
+                    </div>
+                </div>
+                <h3 class="aws-certificate">AWS Certified solution architect</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor</p>
+                <div class="profile-price">
+                    <div class="profile">
+                        <img src="./images/Group 234.svg" alt="">
+                        <span>lina</span>
+                    </div>
+                    <div class="price">
+                        <span class="old-price">
+                            <del>$100</del>
+                        </span>
+                        <span class="new-price">$80</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- 4rth card -->
+            <div class="box" data-aos="flip-right">
+                <img class="box-img" src="./images/pc.svg" alt="">
+                <div class="course-duration">
+                    <div class="course-name img">
+                        <img src="./images/recommed-design.svg" alt="">
+                        <span>Design</span>
+                    </div>
+                    <div class="duration img">
+                        <img src="./images/clock.svg" alt="">
+                        <span>3 Month</span>
+                    </div>
+                </div>
+                <h3 class="aws-certificate">AWS Certified solution architect</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor</p>
+                <div class="profile-price">
+                    <div class="profile">
+                        <img src="./images/Group 234.svg" alt="">
+                        <span>lina</span>
+                    </div>
+                    <div class="price">
+                        <span class="old-price">
+                            <del>$100</del>
+                        </span>
+                        <span class="new-price">$80</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="left-right-move-icon">
+            <div class="icon left-icon">
+                <img src="./images/left-move-icon.svg" alt="">
+            </div>
+            <div class="icon right-icon">
+                <img src="./images/right-move-icon.svg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- online-coaching-section -->
+    <div class="online-coaching-section">
+        <h2>Online coaching lessons for remote learning</h2>
+        <div class="coaching-lesson">
+            <input type="checkbox" name="" id="check">
+            <div class="coaching-box">
+                <div class="circle-para">
+                    <div class="circle"></div>
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+                <label for="check">
+                    <img src="./images/down-arrow.svg" alt="">
+                </label>
+
+            </div>
+
+            <p class="para-hide">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, incidunt!
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos recusandae velit, fugit adipisci optio
+                aperiam amet voluptatem nesciunt. Dolore aut neque consectetur facilis in. Unde quae nostrum eum quia
+                praesentium!Lorem
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit, cumque quo distinctio labore odio
+                atque impedit, ipsam nobis quod aperiam dolor, quas sapiente blanditiis magni animi voluptatem delectus!
+                Ipsa, vel.
+            </p>
+        </div>
+        <!-- 2nd child -->
+        <div class="coaching-lesson">
+            <input type="checkbox" name="" id="second-box-check">
+            <div class="coaching-box">
+                <div class="circle-para">
+                    <div class="circle"></div>
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+                <label for="second-box-check">
+                    <img src="./images/down-arrow.svg" alt="">
+                </label>
+
+            </div>
+
+            <p class="para-hide">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, incidunt!
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos recusandae velit, fugit adipisci optio
+                aperiam amet voluptatem nesciunt. Dolore aut neque consectetur facilis in. Unde quae nostrum eum quia
+                praesentium!Lorem
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit, cumque quo distinctio labore odio
+                atque impedit, ipsam nobis quod aperiam dolor, quas sapiente blanditiis magni animi voluptatem delectus!
+                Ipsa, vel.
+            </p>
+        </div>
+        <!-- 3rd -->
+        <div class="coaching-lesson">
+            <input type="checkbox" name="" id="third-check">
+            <div class="coaching-box">
+                <div class="circle-para">
+                    <div class="circle"></div>
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+                <label for="third-check">
+                    <img src="./images/down-arrow.svg" alt="">
+                </label>
+
+            </div>
+
+            <p class="para-hide">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, incidunt!
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos recusandae velit, fugit adipisci optio
+                aperiam amet voluptatem nesciunt. Dolore aut neque consectetur facilis in. Unde quae nostrum eum quia
+                praesentium!Lorem
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit, cumque quo distinctio labore odio
+                atque impedit, ipsam nobis quod aperiam dolor, quas sapiente blanditiis magni animi voluptatem delectus!
+                Ipsa, vel.
+            </p>
+        </div>
+        <!-- 4rth -->
+        <div class="coaching-lesson">
+            <input type="checkbox" name="" id="4rth-check">
+            <div class="coaching-box">
+                <div class="circle-para">
+                    <div class="circle"></div>
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+                <label for="4rth-check">
+                    <img src="./images/down-arrow.svg" alt="">
+                </label>
+
+            </div>
+
+            <p class="para-hide">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, incidunt!
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos recusandae velit, fugit adipisci optio
+                aperiam amet voluptatem nesciunt. Dolore aut neque consectetur facilis in. Unde quae nostrum eum quia
+                praesentium!Lorem
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit, cumque quo distinctio labore odio
+                atque impedit, ipsam nobis quod aperiam dolor, quas sapiente blanditiis magni animi voluptatem delectus!
+                Ipsa, vel.
+            </p>
+        </div>
+        <!-- 5th -->
+        <div class="coaching-lesson">
+            <input type="checkbox" name="" id="last-check">
+            <div class="coaching-box">
+                <div class="circle-para">
+                    <div class="circle"></div>
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+                <label for="last-check">
+                    <img src="./images/down-arrow.svg" alt="">
+                </label>
+
+            </div>
+
+            <p class="para-hide">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, incidunt!
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos recusandae velit, fugit adipisci optio
+                aperiam amet voluptatem nesciunt. Dolore aut neque consectetur facilis in. Unde quae nostrum eum quia
+                praesentium!Lorem
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit, cumque quo distinctio labore odio
+                atque impedit, ipsam nobis quod aperiam dolor, quas sapiente blanditiis magni animi voluptatem delectus!
+                Ipsa, vel.
+            </p>
+        </div>
+    </div>
+
+    <!-- grid-section -->
+    <div class="container">
+        <div class="item">
+            <div class="content">
+                <p>What’s new</p>
+                <h2>Unleash Creativity</h2>
+                <p class="para"> Unleash your inner designer with our customizable furniture options, allowing you to
+                    create a space
+                    that reflects your unique vision
+                </p>
+            </div>
+            <div class="img-grid">
+                <img src="./images/image-1.png" alt="">
+                <img class="rowspan-2" src="./images/image-2.png" alt="">
+                <img src="./images/image-3.png" alt="">
+            </div>
+        </div>
+
+    </div>
+    <!-- Physical-classroom-section -->
+    <div class="physical-classroom-section">
+        <div class="class-content"  data-aos="fade-right">
+            <div class="circle"></div>
+            <div class="content">
+                <h3>Everything you can do in a physical classroom, <span> you can do with TOTC</span></h3>
+                <p>TOTC’s school management software helps traditional and online schools manage scheduling, attendance,
+                    payments and virtual classrooms all in one secure cloud-based system.</p>
+            </div>
+            <div class="bottom-circle" id="hide-on-sm"></div>
+
+        </div>
+        <div class="img"  data-aos="fade-left">
+            <div class="box"></div>
+            <img src="./images/classroom.svg" alt="">
+            <div class="box bottom-box"></div>
+        </div>
+
+    </div>
+
+    <!-- feature -->
+
+    <div class="feature-section-grid">
+        <div class="feature-section" data-aos="fade-right">
+            <div class="circle"></div>
+            <div class="inner-div">
+                <div class="dot-container">
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div>
+                <div class="grid">
+                    <div class="col-1">
+                        <img src="./images/mic-img.svg" alt="">
+                        <div class="button">
+                            <button class="present-btn">Present</button>
+                            <button class="call-btn">
+                                <i class="fa-solid fa-phone"></i>
+                                Call
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="col-2">
+                        <div class="left-side-img">
+                            <img src="./images/Mask Group.svg" alt="">
+                            <div class="sm-circle"></div>
+                            <img src="./images/MaskGroup.svg" alt="">
+                        </div>
+                        <div class="right-side-img">
+                            <img src="./images/Group 64.svg" alt="">
+                            <img src="./images/gril-img.svg" alt="">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="right-feature-content" data-aos="fade-left">
+            <h1>A user interface designed for the classroom</h1>
+            <div class="teacher-rules">
+                <div class="rule">
+                    <div class="box">
+                        <img src="./images/box.svg" alt="">
+                    </div>
+                    <div class="para">
+                        <p>Teachers don’t get lost in the grid view and have a dedicated Podium space.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="rule">
+                    <div class="box">
+                        <img src="./images/box.svg" alt="">
+                    </div>
+                    <div class="para">
+                        <p>Teachers don’t get lost in the grid view and have a dedicated Podium space.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="rule">
+                    <div class="box">
+                        <img src="./images/box.svg" alt="">
+                    </div>
+                    <div class="para">
+                        <p>Teachers don’t get lost in the grid view and have a dedicated Podium space.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- course discount -->
+
+    <div class="progress-section course_discount">
+        <div class="welcome-msg">
+            <h2>Top Education offers and deals are listed here</h2>
+            <button>See all</button>
+        </div>
+        <div class="img-content">
+            <div class="img">
+                <img src="./images/discount.svg" alt="">
+                <div class="square-box">50%</div>
+                <div class="instruction">
+                    <h2>FOR INSTRUCTORS</h2>
+                    <p>TOTC’s school management software helps traditional and online schools manage scheduling,</p>
+                </div>
+            </div>
+            <div class="img">
+                <img src="./images/discount.svg" alt="">
+                <div class="square-box">50%</div>
+                <div class="instruction">
+                    <h2>FOR INSTRUCTORS</h2>
+                    <p>TOTC’s school management software helps traditional and online schools manage scheduling,</p>
+                </div>
+            </div>
+            <div class="img">
+                <img src="./images/discount.svg" alt="">
+                <div class="square-box">50%</div>
+                <div class="instruction">
+                    <h2>FOR INSTRUCTORS</h2>
+                    <p>TOTC’s school management software helps traditional and online schools manage scheduling,</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Testimonial-section -->
+    <div class="testimonial-section">
+        <div class="testimonial-discription" data-aos="flip-left">
+            <div class="line-section">
+                <div class="line"></div>
+                <span>Testimonial</span>
+            </div>
+            <h1>What They Say?</h1>
+            <p>TOTC has got more than 100k positive ratings <br>
+                from our users around the world. </p>
+            <p>Some of the students and teachers were <br> greatly helped by the Skilline.</p>
+            <p>Are you too? Please give your assessment</p>
+            <div class="button">
+                <button>Write your assessment</button>
+                <div class="arrow">
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="clients-review" data-aos="flip-right">
+            <img src="./images/review-img.svg" alt="">
+            <div class="right-circle">
+                <img src="./images/Vector 5.svg" alt="">
+            </div>
+            <div class="content-review">
+                <div class="content-discription">
+                    <div class="line"></div>
+                    <p>"Thank you so much for your help. It's exactly what I've been looking for. You won't regret it.
+                        It
+                        really saves me time and effort. TOTC is exactly what our business has been lacking."</p>
+                </div>
+
+                <div class="star">
+                    <img src="./images/Star 1.svg" alt="">
+                    <img src="./images/Star 1.svg" alt="">
+                    <img src="./images/Star 1.svg" alt="">
+                    <img src="./images/Star 1.svg" alt="">
+                </div>
+                <p>Gloria Rose</p>
+                <span class="no-of-review">12 reviews at yelp</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- latest news section -->
+    <div class="news-section">
+        <div class="center-alignment">
+            <h2>Latest news and resources</h2>
+            <p>See the developments that have occurred to TOTC in the world</p>
+        </div>
+
+        <div class="news-grid-container">
+            <div class="left-section" data-aos="fade-right">
+                <img src="./images/nws-section-img.svg" alt="">
+                <button class="news">news</button>
+                <h3>Class adds $30 million to its balance sheet <br> for a Zoom-friendly edtech solution</h3>
+                <p>Class, launched less than a year ago by Blackboard <br>
+                    co-founder Michael Chasen, integrates
+                    exclusively...</p>
+                <button class="readmore">
+                    <a href="">Read more</a>
+                </button>
+            </div>
+            <div class="right-section" data-aos="fade-left">
+                <div class="img-discription">
+                    <div class="img-btn">
+                        <img src="./images/zoom-meeting.svg" alt="">
+                        <button class="news">Press Release</button>
+                    </div>
+                    <div class="discription">
+                        <h4>Class Technologies Inc. Closes $30 Million Series A Financing to Meet High Demand</h4>
+                        <p>Class Technologies Inc., the company that <br> created Class,...</p>
+                    </div>
+                </div>
+                <div class="img-discription">
+                    <div class="img-btn">
+                        <img src="./images/zoom-meeting.svg" alt="">
+                        <button class="news">news</button>
+                    </div>
+                    <div class="discription">
+                        <h4>Zoom’s earliest investors are betting millions on a better Zoom for schools</h4>
+                        <p>Zoom was never created to be a consumer <br> product. Nonetheless, the...</p>
+                    </div>
+                </div>
+                <div class="img-discription">
+                    <div class="img-btn">
+                        <img src="./images/cat_man-img.svg" alt="">
+                        <button class="news">news</button>
+                    </div>
+                    <div class="discription">
+                        <h4>Former Blackboard CEO Raises $16M to Bring LMS Features to Zoom Classrooms</h4>
+                        <p>This year, investors have reaped big <br> financial returns from betting on Zoom...</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Assignments and quiz section -->
+    <div class="assignments-quiz">
+        <div class="layout" data-aos="fade-down-right">
+            <div class="outer-circle"></div>
+            <div class="card">
+                <button>Question 1</button>
+                <div class="circle">
+                    <div class="cross-circle">
+                        <img src="./images/cross.svg" alt="">
+                    </div>
+                </div>
+                <div class="circle green-circle">
+                    <div class="cross-circle check-circle">
+                        <img src="./images/check.svg" alt="">
+                    </div>
+                </div>
+                <h2 class="true-false">True or false? This play takes place in Italy</h2>
+                <img class="mosque" src="./images/mosque.svg" alt="">
+                <div class="share-sucessfull">
+                    <div class="share-circle">
+                        <img class="" src="./images/share_suceesfull.svg" alt="">
+                    </div>
+                    <h3 class="answer-rating">Your answer was sent successfully</h3>
+                    <div class="share-circle share-sm-circle">
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="assignments-content" data-aos="fade-down-left">
+            <h1 class="assignments">Assessments, <br> <span style="color: rgb(101, 222, 101);">Quizzes,</span>  Tests</h1>
+            <p>Easily launch live assignments, quizzes, and tests.
+                Student results are automatically entered in the online gradebook.</p>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+
+    <footer>
+        <div class="footer">
+        <div class="logo-zoom-meeting">
+            <div class="symbol"><h2>TOTC</h2></div>
+            <div class="straight-line"></div>
+            <p>Virtual Class <br> for Zoom</p>
+        </div>
+        <div class="subscribe-section logo-zoom-meeting">
+            <h3>Subscribe to get our Newsletter</h3>
+            <div class="email-subscribe">
+                <input type="text" placeholder="Enter your email">
+                <button>Subscribe</button>
+            </div>
+        </div>
+        <div class="term-condition">
+                <p>Careers</p>
+                <div class="vertical-line"></div>
+                <p>Privacy Policy</p>
+                <div class="vertical-line"></div>
+                <p>Terms & Conditions</p>
+        </div>
+        <p style="margin-top: 2rem; color:#B2B3CF">© 2021 Class Technologies Inc. </p>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+
+</html>
