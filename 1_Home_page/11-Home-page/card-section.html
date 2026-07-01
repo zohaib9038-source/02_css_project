@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+
+
+        .box {
+            width: 100%;
+            max-width: 320px;
+            /* height: 500px; */
+            /* border: 2px solid black; */
+            border-radius: 10px;
+            box-shadow: -1px 4px 9px 7px #d7d4d1;
+        }
+
+        .card-container{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+             display: flex;
+            gap: 2.5rem;
+            flex-wrap: wrap;
+        }
+        .top-section {
+            padding-top: 1rem;
+            padding-left: 1rem;
+        }
+
+
+        .top {
+            background-color: #00d9ff;
+            color: white;
+            padding-top: 1px;
+            padding-left: 15px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+
+        }
+
+        .top h2 {
+            color: white;
+            font-size: 50px;
+        }
+
+        .top h2 #sub-text {
+            font-size: 14px;
+            color: rgb(218, 215, 215);
+        }
+
+        .top .price {
+            font-size: 3.2rem;
+        }
+
+        .top .month {
+            margin-top: 18px;
+            font-size: 12px;
+            padding-left: 2px;
+        }
+
+        .price-text {
+            display: flex;
+            align-items: center;
+            /* gap: 1rem; */
+        }
+
+        .top button {
+            border: none;
+            background-color: #63cfdc;
+            border-radius: 10px;
+            color: white;
+            font-size: 10px;
+            margin-left: 1rem;
+            margin-top: 18px;
+            padding: 5px 10px;
+        }
+
+        .box .card-para {
+            padding-bottom: 1rem;
+            font-size: 17px;
+        }
+        .bottom-section{
+            padding-bottom: 1rem;
+        }
+        .bottom-section .fa-check{
+            color: #00d9ff;
+            font-size: 12px;
+            /* margin-top: 1px; */
+        }
+        .bottom-section ul{
+            list-style: none;
+            padding: 12px 20px;
+        }
+        .bottom-section ul li{
+            padding-block: 12px;
+        }
+        .bottom-section button{
+            padding: 15px 30%;
+            margin-left: 20px;
+            border-radius: 20px;
+            outline: none;
+            border: none;
+            border: 1px solid black;
+            background-color: white;
+            color: black;
+            font-weight: 600;
+        }
+        .bottom-section button:hover{
+            background-color: black;
+            color: white;
+        }
+        
+        .box2 .top{
+            background-color: #2584ff;
+           
+        }
+        .box{
+            transition: transform 0.4s ease;
+        }
+        
+        .box2{
+            transform: scale(1.1);
+        }
+        .box2:hover{
+            transform:scale(1.2);
+        }
+
+        .box1:hover ,.box3:hover{
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card-container">
+        <div class="box box1">
+            <div class="top">
+                <p>Entry</p>
+                <div class="price-text">
+                    <span class="price">$14</span>
+                    <span class="month">/month</span>
+                    <button>10% OFF</button>
+                </div>
+                <p class="card-para">Easy start on the cloud</p>
+
+
+            </div>
+            <div class="bottom-section">
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-check"></i>
+                        <span>Unlimited Website</span>
+                    </li>
+                     <li>
+                        <i class="fa-solid fa-check"></i>
+                        <span>Unlimited Website</span>
+                    </li>
+                     <li>
+                        <i class="fa-solid fa-check"></i>
+                        <span>Unlimited Website</span>
+                    </li>
+                     <li>
+                        <i class="fa-solid fa-check"></i>
+                        <span>Unlimited Website</span>
+                    </li>
+                </ul>
+                <button>BUY NOW</button>
+            </div>
+        </div>
+
+        <!-- card2 -->
+        <div class="box box2">
+            <div class="top">
+                <p>Entry</p>
+                <div class="price-text">
+                    <span class="price">$14</span>
+                    <span class="month">/month</span>
+                    <button>10% OFF</button>
+                </div>
+                <p class="card-para">Easy start on the cloud</p>
+
+
+            </div>
+            <div class="bottom-section">
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-check"></i>
+                        <span>Unlimited Website</span>
+                    </li>
+                     <li>
+                        <i class="fa-solid fa-check"></i>
+                        <span>Unlimited Website</span>
+                    </li>
+                     <li>
+                        <i class="fa-solid fa-check"></i>
+                        <span>Unlimited Website</span>
+                    </li>
+                     <li>
+                        <i class="fa-solid fa-check"></i>
+                        <span>Unlimited Website</span>
+                    </li>
+                </ul>
+                <button>BUY NOW</button>
+            </div>
+        </div>
+        <!-- card3 -->
+         <div class="box box3">
+            <div class="top">
+                <p>Entry</p>
+                <div class="price-text">
+                    <span class="price">$14</span>
+                    <span class="month">/month</span>
+                    <button>10% OFF</button>
+                </div>
+                <p class="card-para">Easy start on the cloud</p>
+
+
+            </div>
+            <div class="bottom-section">
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-check"></i>
+                        <span>Unlimited Website</span>
+                    </li>
+                     <li>
+                        <i class="fa-solid fa-check"></i>
+                        <span>Unlimited Website</span>
+                    </li>
+                     <li>
+                        <i class="fa-solid fa-check"></i>
+                        <span>Unlimited Website</span>
+                    </li>
+                     <li>
+                        <i class="fa-solid fa-check"></i>
+                        <span>Unlimited Website</span>
+                    </li>
+                </ul>
+                <button>BUY NOW</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
