@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .conclusion .left_conclusion .link a{
+        text-decoration: none;
+    }
+    .conclusion .left_conclusion .link p{
+        /* font-size: 1.11rem; */
+        margin-top: 1.9rem;
+        /* width: 400px; */
+    }
+    .left_conclusion .logo_img{
+        display: flex;
+        margin-top: 1rem;
+        gap: 1rem;
+    }
+    .left_conclusion .logo_img img{
+        width: 30px;
+    }
+    .left_conclusion{
+        /* margin-left: -24rem; */
+        margin-top: -8rem;
+    }
+    .conclusion{
+        margin-top: 4.3rem;
+        display: flex;
+        /* max-width: 100%; */
+        justify-content: center;
+        align-items: center;
+        gap:1rem;
+    }
+    @media (max-width:1080px) {
+          /* .conclusion{
+            flex-direction: column;
+             gap:3rem;
+          } */
+    }
+
+    /* Footer grid  */
+      .footer-grid-container{
+            /* max-width: 20%; */
+            display: grid;
+            grid-template-columns:repeat(4,minmax(150px,200px));
+            grid-template-rows: repeat(1,minmax(100px,300px));
+            gap: 2.2rem;
+            /* margin-right: -9rem; */
+            max-width: 400px;
+        }
+        .grid-first-col{
+            width: 100px;
+        }
+        .grid-first-col .head{
+            font-weight: bold;
+            font-size: 1.3rem;
+        }
+        .grid-first-col .col-item{
+            padding-top: 1rem;
+        }
+        .col-item a{
+            text-decoration: none;
+        }
+        @media (max-width:600px) {
+        .footer-grid-container{
+            max-width: 350px;
+            display: grid;
+            grid-template-columns:repeat(2,minmax(200px,400px));
+            grid-template-rows: repeat(2,minmax(100px,300px));
+            row-gap: 1rem;
+        }
+        }
+    </style>
+</head>
+<body>
+    <div class="conclusion">
+    <div class="left_conclusion">
+        <div class="link">
+           <h2><a href="#">StudySync</a></h2>
+           <p>Seamless Learning for Brighter Futures.</p>
+        </div>
+        <div class="logo_img">
+            <img src="./images/Google.svg" alt="">
+           <img src="./images/github.svg" alt="">
+           <img src="./images/instagram.svg" alt="">
+        </div>
+    </div>
+     <div class="footer-grid-container"> 
+        <div class="grid-first-col">
+            <div class="head">Products</div>
+            <div class="col-item ">
+            <a href="">Overview</a> 
+            </div>
+            <div class="col-item">
+                <a href="">Solution</a>
+            </div>
+            <div class="col-item">
+            <a href="">Prcing</a> 
+            </div>
+            <div class="col-item">
+                <a href="">Customers</a>
+            </div>
+        </div>
+        
+        <div class="grid-first-col">
+                    <div class="head">Products</div>
+            <div class="col-item ">
+            <a href="">Overview</a> 
+            </div>
+            <div class="col-item">
+                <a href="">Solution</a>
+            </div>
+            <div class="col-item">
+            <a href="">Prcing</a> 
+            </div>
+            <div class="col-item">
+                <a href="">Customers</a>
+            </div>
+        </div>
+        <div class="grid-first-col">
+                    <div class="head">Products</div>
+            <div class="col-item ">
+            <a href="">Overview</a> 
+            </div>
+            <div class="col-item">
+                <a href="">Solution</a>
+            </div>
+            <div class="box3">
+            <a href="">Prcing</a> 
+            </div>
+            <div class="col-item">
+                <a href="">Customers</a>
+            </div>
+        </div>
+        <div class="grid-first-col">
+                    <div class="head">Products</div>
+            <div class="col-item ">
+            <a href="">Overview</a> 
+            </div>
+            <div class="col-item">
+                <a href="">Solution</a>
+            </div>
+            <div class="col-item">
+            <a href="">Prcing</a> 
+            </div>
+            <div class="col-item">
+                <a href="">Customers</a>
+            </div>
+        </div>
+        
+     </div>  
+  
+          
+</div>
+</body>
+</html>
